@@ -2,14 +2,14 @@ baseURL = "https://example.com"
 
 # theme
 # 主题
-theme = "LoveIt"
+theme = "LoveIt-remix"
 # themes directory
 # 主题目录
 themesDir = "../.."
 
 # website title
 # 网站标题
-title = "LoveIt"
+title = "Pascal Cotret's blog"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
@@ -70,14 +70,6 @@ enableEmoji = true
     title = ""
   [[menu.main]]
     weight = 2
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "Tags"
-    url = "/tags/"
-    title = ""
-  [[menu.main]]
-    weight = 3
     identifier = "categories"
     pre = ""
     post = ""
@@ -88,7 +80,7 @@ enableEmoji = true
 [params]
   # site default theme ["auto", "light", "dark"]
   # 网站默认主题 ["auto", "light", "dark"]
-  defaultTheme = "auto"
+  defaultTheme = "dark"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
   gitRepo = "https://github.com/dillonzq/LoveIt"
@@ -127,7 +119,7 @@ enableEmoji = true
       logo = ""
       # title name
       # 标题名称
-      name = "LoveIt"
+      name = "Pascal Cotret's blog"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = "<i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i>"
@@ -141,7 +133,7 @@ enableEmoji = true
   # Footer config
   # 页面底部信息配置
   [params.footer]
-    enable = true
+    enable = false
     # Custom content (HTML format is supported)
     # 自定义内容 (支持 HTML 格式)
     custom = ""
@@ -195,7 +187,7 @@ enableEmoji = true
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-    title = "LoveIt"
+    title = "Pascal Cotret's blog"
     # whether to omit favicon resource links
     # 是否隐藏网站图标资源链接
     noFavicon = false
@@ -263,7 +255,7 @@ enableEmoji = true
       title = ""
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+      subtitle = "Technical blog about embedded systems & security"
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
       typeit = true
@@ -286,70 +278,7 @@ enableEmoji = true
     GitHub = ""
     Linkedin = ""
     Twitter = ""
-    Instagram = ""
-    Facebook = ""
-    Telegram = ""
-    Medium = ""
     Gitlab = ""
-    Youtubelegacy = ""
-    Youtubecustom = ""
-    Youtubechannel = ""
-    Tumblr = ""
-    Quora = ""
-    Keybase = ""
-    Pinterest = ""
-    Reddit = ""
-    Codepen = ""
-    FreeCodeCamp = ""
-    Bitbucket = ""
-    Stackoverflow = ""
-    Weibo = ""
-    Odnoklassniki = ""
-    VK = ""
-    Flickr = ""
-    Xing = ""
-    Snapchat = ""
-    Soundcloud = ""
-    Spotify = ""
-    Bandcamp = ""
-    Paypal = ""
-    Fivehundredpx = ""
-    Mix = ""
-    Goodreads = ""
-    Lastfm = ""
-    Foursquare = ""
-    Hackernews = ""
-    Kickstarter = ""
-    Patreon = ""
-    Steam = ""
-    Twitch = ""
-    Strava = ""
-    Skype = ""
-    Whatsapp = ""
-    Zhihu = ""
-    Douban = ""
-    Angellist = ""
-    Slidershare = ""
-    Jsfiddle = ""
-    Deviantart = ""
-    Behance = ""
-    Dribbble = ""
-    Wordpress = ""
-    Vine = ""
-    Googlescholar = ""
-    Researchgate = ""
-    Mastodon = ""
-    Thingiverse = ""
-    Devto = ""
-    Gitea = ""
-    XMPP = ""
-    Matrix = ""
-    Bilibili = ""
-    Discord = ""
-    DiscordInvite = ""
-    Lichess = ""
-    ORCID = ""
-    Pleroma = ""
     Email = ""
     RSS = ""
 
@@ -451,28 +380,7 @@ enableEmoji = true
     [params.page.share]
       enable = true
       Twitter = true
-      Facebook = true
       Linkedin = false
-      Whatsapp = false
-      Pinterest = false
-      Tumblr = false
-      HackerNews = true
-      Reddit = false
-      VK = false
-      Buffer = false
-      Xing = false
-      Line = true
-      Instapaper = false
-      Pocket = false
-      Flipboard = false
-      Weibo = true
-      Blogger = false
-      Baidu = false
-      Odnoklassniki = false
-      Evernote = false
-      Skype = false
-      Trello = false
-      Mix = false
     # Comment config
     # 评论系统设置
     [params.page.comment]
@@ -793,14 +701,6 @@ enableEmoji = true
         title = ""
       [[languages.en.menu.main]]
         weight = 2
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "Tags"
-        url = "/tags/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 3
         identifier = "categories"
         pre = ""
         post = ""
@@ -808,15 +708,7 @@ enableEmoji = true
         url = "/categories/"
         title = ""
       [[languages.en.menu.main]]
-        weight = 4
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 5
+        weight = 3
         identifier = "about"
         pre = ""
         post = ""
@@ -824,7 +716,7 @@ enableEmoji = true
         url = "/about/"
         title = ""
       [[languages.en.menu.main]]
-        weight = 6
+        weight = 4
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
@@ -852,109 +744,12 @@ enableEmoji = true
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
           title = ""
-          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+          subtitle = "Technical blog about embedded systems & security"
           typeit = true
           social = true
           disclaimer = ""
       [languages.en.params.social]
         GitHub = "xxxx"
         Twitter = "xxxx"
-        Instagram = "xxxx"
-        Facebook = "xxxx"
-        Telegram = "xxxx"
-        Youtubelegacy = "xxxx"
-        Email = "xxxx@xxxx.com"
-        RSS = true
-        [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
-
-  [languages.zh-cn]
-    weight = 2
-    languageCode = "zh-CN"
-    languageName = "简体中文"
-    hasCJKLanguage = true
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    [languages.zh-cn.menu]
-      [[languages.zh-cn.menu.main]]
-        weight = 1
-        identifier = "posts"
-        pre = ""
-        post = ""
-        name = "所有文章"
-        url = "/posts/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 2
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "标签"
-        url = "/tags/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 3
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "分类"
-        url = "/categories/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 4
-        identifier = "documentation"
-        pre = ""
-        name = "文档"
-        url = "/categories/documentation/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 5
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "关于"
-        url = "/about/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 6
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/dillonzq/LoveIt"
-        title = "GitHub"
-    [languages.zh-cn.params]
-      [languages.zh-cn.params.search]
-        enable = true
-        type = "algolia"
-        contentLength = 4000
-        placeholder = ""
-        maxResultLength = 10
-        snippetLength = 50
-        highlightTag = "em"
-        absoluteURL = false
-        [languages.zh-cn.params.search.algolia]
-          index = "index.zh-cn"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-      [languages.zh-cn.params.home]
-        rss = 10
-        [languages.zh-cn.params.home.profile]
-          enable = true
-          gravatarEmail = ""
-          avatarURL = "/images/avatar.png"
-          title = ""
-          subtitle = "一个简洁、优雅且高效的 Hugo 主题"
-          typeit = true
-          social = true
-          disclaimer = ""
-      [languages.zh-cn.params.social]
-        GitHub = "xxxx"
-        Weibo = "xxxx"
-        Steam = "xxxx"
-        Zhihu = "xxxx"
-        Douban = "xxxx"
-        Devto = "xxxx"
-        Bilibili = "xxxx"
         Email = "xxxx@xxxx.com"
         RSS = true
