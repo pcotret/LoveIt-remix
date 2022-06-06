@@ -749,7 +749,7 @@ enableEmoji = true
           social = true
           disclaimer = ""
       [languages.en.params.social]
-        GitHub = "xxxx"
+        GitHub = "pcotret"
         Twitter = "xxxx"
         Email = "xxxx@xxxx.com"
         RSS = true
