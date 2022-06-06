@@ -750,6 +750,6 @@ enableEmoji = true
           disclaimer = ""
       [languages.en.params.social]
         GitHub = "pcotret"
-        Twitter = "xxxx"
-        Email = "xxxx@xxxx.com"
+        Twitter = "Pa0x73cal"
+        Email = "pascal.cotret@ensta-bretagne.fr"
         RSS = true
